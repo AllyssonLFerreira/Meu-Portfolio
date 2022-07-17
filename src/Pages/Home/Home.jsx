@@ -1,10 +1,12 @@
+import { FixedHeader } from "../../Components/header";
+import { Presentation } from "../../Components/presentation";
 
 export const Home = () => {
 
   return(
   <>
-  <h1>Olá</h1>
-  <p>Estamos na Home</p>
+    <FixedHeader />
+    <Presentation />
   </>
   )
 };

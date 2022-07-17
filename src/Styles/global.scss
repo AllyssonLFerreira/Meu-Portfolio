@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-synthesis: none;
@@ -7,18 +14,14 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+.global--style {
+  background-color: #000000;
+  color: #fff;
 }
 
 a {
   text-decoration: none;
+  margin-right: 2rem;
 }
 
 button {
